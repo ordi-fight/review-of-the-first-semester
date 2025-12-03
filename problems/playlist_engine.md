@@ -87,11 +87,13 @@
 
 1. **優先查找 $A$ (左側運算元)：** 嘗試呼叫 $A$ 的 `__add__` 方法，並將 $B$ 作為參數傳入。
 
-   $$A + B \quad \Rightarrow \quad A.\text{\_\_add\_\_}(B)$$
+    class1 (object) + class2(object)
+   
+    "+" call class1 method __add__(self,other)
+   
+    class2 is viewed as argument other
 
-2. **如果 $A$ 不支持：** 如果 $A$ 沒有定義 `__add__`，或者 `A.__add__(B)` 返回了 `NotImplemented`，Python 會嘗試呼叫 $B$ 的**反射**方法 `__radd__`，並將 $A$ 作為參數傳入。
-
-   $$A + B \quad \Rightarrow \quad B.\text{\_\_radd\_\_}(A)$$
+3. **如果 $A$ 不支持：** 如果 $A$ 沒有定義 `__add__`，或者 `A.__add__(B)` 返回了 `NotImplemented`，Python 會嘗試呼叫 $B$ 的**反射**方法 `__radd__`，並將 $A$ 作為參數傳入。
 
 ### 角色分配
 

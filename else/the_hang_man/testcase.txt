@@ -1,0 +1,12 @@
+8
+7
+EHEPHAAT
+check E
+chance
+guess ELEVATOR
+check A
+check H
+check T
+check P
+hint
+hint

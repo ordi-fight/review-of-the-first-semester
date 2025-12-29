@@ -1,0 +1,10 @@
+9
+ADD Finish homework 9
+ADD Start checkpoint 3
+ADD Review homework 2
+LEN
+DONE Start checkpoint 3
+PRINTALL
+PENDING 2
+DONE Finish homework 9
+PENDING 1

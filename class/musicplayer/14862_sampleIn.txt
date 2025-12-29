@@ -1,0 +1,16 @@
+15
+NEW_SEQ Favorite
+ADD Favorite Bubblegum
+ADD Favorite Supernatural
+ADD Favorite How_Sweet
+NEW_REV Classic_ones
+ADD Classic_ones OMG
+ADD Classic_ones Ditto
+ADD Classic_ones ETA
+PRINT Favorite
+PRINT Classic_ones
+PLAY Favorite 3
+PLAY Classic_ones 3
+MERGE Combined_playlist Favorite Classic_ones
+PRINT Combined_playlist 
+PLAY Combined_playlist  6

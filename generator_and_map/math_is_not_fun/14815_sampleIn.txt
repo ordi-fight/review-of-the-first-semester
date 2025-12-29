@@ -1,0 +1,6 @@
+5
+add odd
+add double
+process 5
+remove odd
+process 5

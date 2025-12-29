@@ -1,0 +1,16 @@
+11
+add
+apple 2
+add
+banana 1
+show
+add
+apple 1
+show
+remove
+apple 1
+show
+count
+clear
+count
+show

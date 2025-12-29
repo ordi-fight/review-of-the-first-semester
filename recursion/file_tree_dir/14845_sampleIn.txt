@@ -1,0 +1,26 @@
+ls
+mkdir A
+mkdir A/X
+mkdir A/Y
+mkdir Z
+cd A
+ls
+cd X
+ls
+cd ..
+cd Y
+ls
+cd /
+ls
+cd Z
+ls
+cd ..
+cd ..
+cd /A
+ls
+touch f1
+ls
+touch f2
+ls
+rm f1
+ls
